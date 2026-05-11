@@ -2,7 +2,7 @@ let datos = [];
 
 // LINK CSV GOOGLE SHEETS
 const urlCSV =
-    "https://docs.google.com/spreadsheets/d/1aucIW0h10cJwLcaYu-BxbHge9biFCPUe4WR6oN_CgFA/export?format=csv&gid=246713282";
+    "https://docs.google.com/spreadsheets/d/1AfGBnYtxl53AiGHP6yLyhJUgenAgs7_VSUghYbZYsaY/gviz/tq?tqx=out:csv&gid=1449869612";
 
 
 // ========================================
