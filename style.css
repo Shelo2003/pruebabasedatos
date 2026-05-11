@@ -1,0 +1,147 @@
+/* ========================================
+   ESTILO GENERAL
+======================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 20px;
+    color: #333;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* ========================================
+   TITULO
+======================================== */
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1f2937;
+    font-size: 32px;
+}
+
+
+/* ========================================
+   BUSCADOR
+======================================== */
+
+.buscador{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.buscador input{
+    flex: 1;
+    min-width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.buscador button{
+    padding: 12px 20px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.buscador button:hover{
+    background: #1d4ed8;
+}
+
+
+/* ========================================
+   TABLA
+======================================== */
+
+.tabla-container{
+    width: 100%;
+    overflow-x: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+thead{
+    background: #2563eb;
+    color: white;
+}
+
+th, td{
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+tbody tr:hover{
+    background: #f9fafb;
+}
+
+
+/* ========================================
+   ESTADOS
+======================================== */
+
+td:last-child{
+    font-weight: bold;
+}
+
+
+/* ========================================
+   RESPONSIVE CELULAR
+======================================== */
+
+@media(max-width: 768px){
+
+    body{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .buscador{
+        flex-direction: column;
+    }
+
+    .buscador input,
+    .buscador button{
+        width: 100%;
+    }
+
+    th, td{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    table{
+        min-width: 600px;
+    }
+}
