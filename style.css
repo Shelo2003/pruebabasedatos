@@ -148,7 +148,8 @@ tbody tr:hover{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 12px;
+
     padding: 10px 15px;
     background: white;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
