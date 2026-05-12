@@ -11,8 +11,8 @@ const urlCSV =
 
 cargarDatos();
 
-// Actualizar cada 30 segundos
-setInterval(cargarDatos, 30000);
+// Actualizar cada 20 segundos
+setInterval(cargarDatos, 20000);
 
 function cargarDatos(){
 
