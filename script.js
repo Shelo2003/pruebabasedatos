@@ -6,12 +6,12 @@ const urlCSV =
 
 
 
-// CARGAR DATOS DESDE GOOGLE SHEETS
+// cargar datos de GOOGLE SHEETS
 
 
 cargarDatos();
 
-// Actualizar cada 20 segundos
+// recargar cada 20 segundos
 setInterval(cargarDatos, 20000);
 
 function cargarDatos(){

@@ -1,6 +1,4 @@
-/* ========================================
-   ESTILO GENERAL
-======================================== */
+/* estilo en general */
 
 *{
     margin: 0;
@@ -21,9 +19,7 @@ body{
 }
 
 
-/* ========================================
-   TITULO
-======================================== */
+/* Titulo */
 
 h1{
     text-align: center;
@@ -33,9 +29,9 @@ h1{
 }
 
 
-/* ========================================
-   BUSCADOR
-======================================== */
+
+   /*Buscador*/
+
 
 .buscador{
     display: flex;
@@ -69,9 +65,9 @@ h1{
 }
 
 
-/* ========================================
-   TABLA
-======================================== */
+
+   /*Tabla de datos*/
+
 
 .tabla-container{
     width: 100%;
@@ -106,9 +102,9 @@ tbody tr:hover{
 
 
 
-/* ========================================
-   RESPONSIVE CELULAR
-======================================== */
+
+   /*ver celular*/
+
 
 @media(max-width: 768px){
 
@@ -140,9 +136,9 @@ tbody tr:hover{
 }
 
 
-/* =========================
-   BARRA SUPERIOR (LOGO + TITULO)
-========================= */
+
+   /*BARRA con Logo y titulo*/
+
 
 .top-bar{
     display: flex;
@@ -157,9 +153,9 @@ tbody tr:hover{
 }
 
 .top-bar img{
-    width: 42px;          /* tamaño más equilibrado */
-    max-height: 42px;     /* evita que crezca demasiado */
-    object-fit: contain;  /* mantiene proporción limpia */
+    width: 150px;          /* cambiar tamaño img */
+    max-height: 150px;     /* cambiar container img */
+    object-fit: contain;  
     display: block;
 }
 
