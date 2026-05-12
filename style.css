@@ -138,3 +138,32 @@ tbody tr:hover{
         min-width: 600px;
     }
 }
+
+
+/* =========================
+   BARRA SUPERIOR (LOGO + TITULO)
+========================= */
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 15px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.top-bar img{
+    width: 42px;          /* tamaño más equilibrado */
+    max-height: 42px;     /* evita que crezca demasiado */
+    object-fit: contain;  /* mantiene proporción limpia */
+    display: block;
+}
+
+.top-bar h1{
+    font-size: 22px;
+    margin: 0;
+    color: #1f2937;
+}

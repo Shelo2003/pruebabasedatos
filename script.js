@@ -74,7 +74,7 @@ function buscarDirecciones() {
         return;
     }
 
-    // Mostrar resultados
+    // Muestra resultados
     resultados.forEach(item => {
 
         const estado =
