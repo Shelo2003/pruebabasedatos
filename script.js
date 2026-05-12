@@ -5,9 +5,9 @@ const urlCSV =
     "https://docs.google.com/spreadsheets/d/1AfGBnYtxl53AiGHP6yLyhJUgenAgs7_VSUghYbZYsaY/gviz/tq?tqx=out:csv&gid=1449869612";
 
 
-// ========================================
+
 // CARGAR DATOS DESDE GOOGLE SHEETS
-// ========================================
+
 
 cargarDatos();
 
@@ -32,9 +32,9 @@ function cargarDatos(){
 }
 
 
-// ========================================
+
 // BUSCAR DIRECCIONES
-// ========================================
+
 
 function buscarDirecciones() {
 
@@ -103,15 +103,19 @@ function buscarDirecciones() {
                     ${estado}
                 </td>
 
+                <td>
+                    ${item["FECHA SOLUCIÓN CONTRATISTA AP"] || ""}
+                </td>
+
             </tr>
         `;
     });
 }
 
 
-// ========================================
+
 // CONVERTIR FECHA
-// ========================================
+
 
 function convertirFecha(fechaTexto){
 
@@ -140,9 +144,9 @@ function convertirFecha(fechaTexto){
 }
 
 
-// ========================================
+
 // OBTENER ESTADO
-// ========================================
+
 
 function obtenerEstado(item){
 
